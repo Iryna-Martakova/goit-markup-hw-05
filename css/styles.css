@@ -762,9 +762,6 @@ section {
   color: #8E8F99;
   max-width: 338px;
   cursor: pointer;
-
-  display: flex;
-  align-items: center;
 }
 
 .check {
@@ -793,6 +790,8 @@ section {
 
 .modal-link {
   padding: 0;
+
+  display: inline-block;
 
   line-height: 133%;
   text-decoration: underline;
